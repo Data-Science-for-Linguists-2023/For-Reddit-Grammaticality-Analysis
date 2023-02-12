@@ -1,4 +1,4 @@
-# Reddit: An Analysis on the Grammaticality of Posts
+# For Reddit: An Analysis on the Grammaticality of Posts
 
 ## BRIEF SUMMARY
 Reddit, along with other social media websites and applications, has dramatically altered the way in which communication occurs. 
