@@ -8,11 +8,9 @@ found within these incomplete and ungrammatical sentences.
 
 ## DATA
 The data that I will work with comes in the form of Reddit posts, from [Reddit](https://www.reddit.com/). These posts will be collected using
-the [Reddit API](https://www.reddit.com/dev/api/), which is very compatible with Python. I plan on taking posts from several subreddits of various 
-cities across the United States, such as [r/pittsburgh](https://www.reddit.com/r/pittsburgh/), [r/chicago](https://www.reddit.com/r/chicago/), 
-and [r/losangeles](https://www.reddit.com/r/LosAngeles/). I am not sure what data size I will be aiming for, however there are a significant amount
-of posts to work with. There will definitely be data cleaning involved, as these posts contain a lot of information that I will not need, such as 
-images, URLs, and various other things. There also may be some level of annotating these posts and certain aspects of their structure and elements.
+the [Reddit API](https://www.reddit.com/dev/api/), which is very compatible with Python. Furthermore, I plan on using [PRAW](https://praw.readthedocs.io/en/stable/), which is a Python API Reddit Wrapper to collect and work with posts. I plan on taking posts from several subreddits that demonstrate how various groups may write differently, such as [r/gaming](https://www.reddit.com/r/gaming/), [r/cryptocurrency](https://www.reddit.com/r/CryptoCurrency/), and [r/sports](https://www.reddit.com/r/sports/). I am aiming for a data size in the range of 10,000 
+to 20,000 posts. There will definitely be data cleaning involved, as these posts contain a lot of information that I will not need, such as images
+and various other things. There also may be some level of annotating these posts and certain aspects of their structure and elements.
 
 ## ANALYSIS
 The end goal is to analyze the grammaticality of Reddit posts. This would include finding the amount of ungrammatical posts and ungrammatical 
