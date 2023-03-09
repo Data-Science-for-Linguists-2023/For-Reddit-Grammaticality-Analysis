@@ -2,6 +2,7 @@
 .ipynb_checkpoints
 .Rproj.user
 *.pkl
+*.txt
 #------------------ common OS config files
 .DS_Store
 .Spotlight-V100
