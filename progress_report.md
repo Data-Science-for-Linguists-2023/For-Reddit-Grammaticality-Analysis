@@ -27,3 +27,4 @@ The 2nd Progress Report revolved around data organization and analysis. The firs
 #### Sharing Plan
 For the found portion of my data, I will be making all of my data publicly available. Reddit's rules for the API are [here](https://docs.google.com/forms/d/e/1FAIpQLSezNdDNK1-P8mspSbmtC2r86Ee9ZRbC66u929cG2GX0T9UMyw/viewform). Within this webpage, Reddit outlines that posts can be displayed and formatted. Therefore, I am free to post samples of my data, which is csv files with information relating to Reddit posts.
 #### Repository License Plan
+For my project, I have chosen the [GNU General Public License v3.0](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/LICENSE.md). I am happy to have other people use and modify my code that I have written in this repository, as long as I am given credit for the original work.
