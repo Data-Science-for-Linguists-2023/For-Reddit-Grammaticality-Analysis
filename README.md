@@ -1,6 +1,9 @@
 # For-Reddit-Grammaticality-Analysis
 This is Camryn Simons's term project for Data Science for Linguists 2023.
 This project analyzes the grammaticality of various posts on the website, Reddit.
+## Reddit Background
+**What is Reddit?**
+For people who may be unfamiliar, [Reddit](https://www.reddit.com/) is a website in which posts regarding a wide variety of topics are made and discussed. Subreddits is the term for a forum on Reddit regarding a specific topic. For example, there is a subreddit regarding [cats](https://www.reddit.com/r/cats/). Subreddits allow people to talk about things related to that topic.
 
 ## Repository Structure
 1. [Data Samples](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/data_samples) - This folder contains samples of the data, collected from Reddit, that I work with in my notebooks.
