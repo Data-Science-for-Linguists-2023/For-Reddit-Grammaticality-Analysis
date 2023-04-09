@@ -13,3 +13,7 @@ For people who may be unfamiliar, [Reddit](https://www.reddit.com/) is a website
 5. [README](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/README.md) - This is where you are now! This file contains information regarding my repository.
 6. [Progress Report](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/progress_report.md) - This file contains information regarding the progress I have made on my project at various points in the semester.
 7. [Project Plan](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/project_plan.md) - This file contains information regarding the original plan for this project.
+
+## Guestbook
+
+My guestbook for this repository can be accessed [here](https://github.com/Data-Science-for-Linguists-2023/Class-Lounge/blob/main/guestbooks/camryn.md).
