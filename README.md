@@ -24,14 +24,14 @@ Does the grammaticality of a post have an effect on its interactions?
 All of the data that I used for the project can be found [here](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/data_samples). I collected all of this data myself using [PRAW](https://praw.readthedocs.io/en/stable/). 
 
 ## Directory
-- [final_report]
-- [Data Samples](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/data_samples) - This folder contains samples of the data, collected from Reddit, that I work with in my notebooks.
-- [Notebooks](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/notebooks) - This folder contains several notebooks, for purposes of data collection, organization, and analysis.
-- [Git Ignore](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/.gitignore) - This file contains information regarding which files my repository should ignore.
-- [License](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/LICENSE.md) - This file contains information regarding the license I have chosen from my repository.
-- [README](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/README.md) - This is where you are now! This file contains information regarding my repository.
-- [Progress Report](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/progress_report.md) - This file contains information regarding the progress I have made on my project at various points in the semester.
-- [Project Plan](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/project_plan.md) - This file contains information regarding the original plan for this project.
+- [final_report](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/final_report.md): This file contains my final report regarding this project.
+- [Data Samples](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/data_samples): This folder contains samples of the data, collected from Reddit, that I work with in my notebooks.
+- [Notebooks](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/notebooks):  This folder contains several notebooks, for purposes of data collection, organization, and analysis.
+- [Git Ignore](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/.gitignore): This file contains information regarding which files my repository should ignore.
+- [License](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/LICENSE.md):  This file contains information regarding the license I have chosen from my repository.
+- [README](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/README.md): This is where you are now! This file contains information regarding my repository.
+- [Progress Report](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/progress_report.md): This file contains information regarding the progress I have made on my project at various points in the semester.
+- [Project Plan](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/project_plan.md): This file contains information regarding the original plan for this project.
 
 ## Guestbook
 
