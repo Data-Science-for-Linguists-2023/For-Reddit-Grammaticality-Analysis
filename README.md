@@ -1,18 +1,37 @@
 # For-Reddit-Grammaticality-Analysis
-This is Camryn Simons's term project for Data Science for Linguists 2023.
-This project analyzes the grammaticality of various posts on the website, Reddit.
-## Reddit Background
 
-For people who may be unfamiliar, [Reddit](https://www.reddit.com/) is a website in which posts regarding a wide variety of topics are made and discussed. Subreddits is the term for a forum on Reddit regarding a specific topic. For example, there is a subreddit regarding [cats](https://www.reddit.com/r/cats/). Subreddits allow people to talk about things related to that topic.
+[Camryn Simons](https://github.com/camrynsimons)
 
-## Repository Structure
-1. [Data Samples](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/data_samples) - This folder contains samples of the data, collected from Reddit, that I work with in my notebooks.
-2. [Notebooks](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/notebooks) - This folder contains several notebooks, for purposes of data collection, organization, and analysis.
-3. [Git Ignore](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/.gitignore) - This file contains information regarding which files my repository should ignore.
-4. [License](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/LICENSE.md) - This file contains information regarding the license I have chosen from my repository.
-5. [README](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/README.md) - This is where you are now! This file contains information regarding my repository.
-6. [Progress Report](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/progress_report.md) - This file contains information regarding the progress I have made on my project at various points in the semester.
-7. [Project Plan](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/project_plan.md) - This file contains information regarding the original plan for this project.
+[crs163@pitt.edu](crs163@pitt.edu)
+
+Due: April 30, 2023
+
+## Project Overview
+
+This repository analyzes the grammaticality of posts on [Reddit](https://www.reddit.com/). Specifically this repistory seeks to answer the main question: 
+Is there a way to categorize common grammatical errors? 
+
+Within that question, several subquestions are developed:
+
+Which grammatical errors are most prevalant on Reddit?
+
+Are there grammatical errors that are more common across certain subreddits?
+
+Does the grammaticality of a post have an effect on its interactions?
+
+## Data Overview
+
+All of the data that I used for the project can be found [here](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/data_samples). I collected all of this data myself using [PRAW](https://praw.readthedocs.io/en/stable/). 
+
+## Directory
+- [final_report]
+- [Data Samples](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/data_samples) - This folder contains samples of the data, collected from Reddit, that I work with in my notebooks.
+- [Notebooks](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/tree/main/notebooks) - This folder contains several notebooks, for purposes of data collection, organization, and analysis.
+- [Git Ignore](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/.gitignore) - This file contains information regarding which files my repository should ignore.
+- [License](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/LICENSE.md) - This file contains information regarding the license I have chosen from my repository.
+- [README](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/README.md) - This is where you are now! This file contains information regarding my repository.
+- [Progress Report](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/progress_report.md) - This file contains information regarding the progress I have made on my project at various points in the semester.
+- [Project Plan](https://github.com/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/main/project_plan.md) - This file contains information regarding the original plan for this project.
 
 ## Guestbook
 
