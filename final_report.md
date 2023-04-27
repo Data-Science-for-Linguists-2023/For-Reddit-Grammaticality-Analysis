@@ -17,6 +17,8 @@ I decided to collect all of the data for this project myself. Although Reddit da
 
 Using PRAW, I collected posts from 15 different subreddits: r/nba, r/gaming, r/cryptocurrency, r/lawyertalk, r/legalAdvice, r/highschool, r/adulting, r/rant, r/pittsburgh, r/broadway, r/medicine, r/explainlikeimfive, r/college, r/anime, and r/cscareerquestions. I chose these subreddits as they all potentially contain different patterns of online writing. Within these subreddits, I collected a dataset of 1500 posts per subreddit. For each post, I also collected the title, the ID, the author, the text, the number of comments, the number of upvotes, and the upvote ratio. This data was packaged into .csv files. A part of one of the datasets, namely the cryptocurrency dataset, is shown below.
 
+![png](images/dataset_image.png)
+
 ##### Annotation
 
 This data was then annotated with language-tool-python, which is a Python wrapper for a widely-used grammar checker. Essentially, this tool would be used on all of the text for each subreddit. If an error was found, the tool would return the error with various details. If no error was found, it would return an empty list. These errors were kept in a list of lists for each subreddit. These lists were worked with for the majority of the analysis.
@@ -59,7 +61,8 @@ The lawyer talk subreddit had **AM_I** as a unique top error. This error is caus
 In order to find the connection between interactions and grammaticality, I decided to first find the normalized counts of errors per post for each subreddit. One can see this visualized below.
 
 In addition to finding the normalized counts per post for each subreddit, I also wanted to find the normalized counts of upvotes per post for each subreddit.  One can see this visualized below.
-![png](images/dataset_image.png)
+
+![png](images/upvotes_image.png)
 
 Taking these two measures into account, one can see that there is no real connection between interactions and grammaticality. Some subreddits had a high number of upvotes and a low number of errors, such as college subreddit. The inverse of this also exist, as seen in the cryptocurrency subreddit. This could be caused by many factors, such as the frequency of posts on that subreddit and the amount of users on that subreddit.
 
