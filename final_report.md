@@ -59,6 +59,7 @@ The lawyer talk subreddit had **AM_I** as a unique top error. This error is caus
 In order to find the connection between interactions and grammaticality, I decided to first find the normalized counts of errors per post for each subreddit. One can see this visualized below.
 
 In addition to finding the normalized counts per post for each subreddit, I also wanted to find the normalized counts of upvotes per post for each subreddit.  One can see this visualized below.
+![png](images/dataset_image.png)
 
 Taking these two measures into account, one can see that there is no real connection between interactions and grammaticality. Some subreddits had a high number of upvotes and a low number of errors, such as college subreddit. The inverse of this also exist, as seen in the cryptocurrency subreddit. This could be caused by many factors, such as the frequency of posts on that subreddit and the amount of users on that subreddit.
 
