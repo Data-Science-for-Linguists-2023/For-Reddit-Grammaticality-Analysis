@@ -1,7 +1,7 @@
 # Final Report - For Reddit Grammaticality Analysis
 
 
-##Background
+## Background
 
 The internet's impact on human language is undeniable. One can see this impact through the use of abbreviations, internet slang, the use of emojis, overuse of punctuations, and abnormal capitalization patterns. Many people view this change negatively, commonly citing examples of bad grammar and spelling. However, linguists, such as Gretchen McCulloch, have provided insight as to why this change shouldn't be viewed negatively.
 
