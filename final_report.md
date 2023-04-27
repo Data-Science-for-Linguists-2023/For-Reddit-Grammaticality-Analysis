@@ -66,6 +66,7 @@ In addition to finding the normalized counts per post for each subreddit, I also
 
 Taking these two measures into account, one can see that there is no real connection between interactions and grammaticality. Some subreddits had a high number of upvotes and a low number of errors, such as college subreddit. The inverse of this also exist, as seen in the cryptocurrency subreddit. This could be caused by many factors, such as the frequency of posts on that subreddit and the amount of users on that subreddit.
 
+![png](images/counts_image.png)
 
 ## Setbacks and Difficulties
 
