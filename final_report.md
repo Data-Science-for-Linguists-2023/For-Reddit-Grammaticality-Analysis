@@ -3,9 +3,9 @@
 
 ## Background
 
-The internet's impact on human language is undeniable. One can see this impact through the use of abbreviations, internet slang, the use of emojis, overuse of punctuations, and abnormal capitalization patterns. Many people view this change negatively, commonly citing examples of bad grammar and spelling. However, linguists, such as Gretchen McCulloch, have provided insight as to why this change shouldn't be viewed negatively.
+The internet's impact on human language is undeniable. One can see this impact through the use of abbreviations, internet slang, the use of emojis, overuse of punctuations, and abnormal capitalization patterns. Many people view this change negatively, commonly citing examples of bad grammar and spelling. However, an area of linguistics provides a more positive perspective on this change.
 
-This type of insight is part of an area of linguistics called internet linguistics. Internet linguistics is concerned with how language has changed due to online communication. Furthermore, this area of linguistics provides a perspective on why these changes should be as natural and positive. Specifically, Gretchen McCulloch cites that "Language is humanity's most spectacular open-source project" and that "There's not one right way to communicate"(McDonough, 2019).
+This area of linguistics is called internet linguistics. Internet linguistics is concerned with how language has changed due to online communication. Furthermore, this area of linguistics provides a perspective on why these changes should be as natural and positive. Specifically, Gretchen McCulloch cites that "Language is humanity's most spectacular open-source project" and that "There's not one right way to communicate"(McDonough, 2019).
 
 With this perspective, I wanted to delve into the world of internet linguistics in my project. I wanted to explore the possibility of capturing, categorizing, and analyzing patterns of writing online. To do this, I turned my focus to Reddit, and online forum.
 
@@ -19,14 +19,13 @@ Using PRAW, I collected posts from 15 different subreddits: r/nba, r/gaming, r/c
 
 ##### Annotation
 
-This data was then annotated with language-tool-python, which is a Python wrapper for a widely-used grammar checker. This tool will be talked about in further depth in the next section. Essentially, this tool would be used on all of the text for each subreddit. If an error was found, the tool would return the error with various details. If no error was found, it would return an empty list. These errors were kept in a list of lists for each subreddit. These lists were worked with for the majority of the analysis.
+This data was then annotated with language-tool-python, which is a Python wrapper for a widely-used grammar checker. Essentially, this tool would be used on all of the text for each subreddit. If an error was found, the tool would return the error with various details. If no error was found, it would return an empty list. These errors were kept in a list of lists for each subreddit. These lists were worked with for the majority of the analysis.
 
 The data's grammaticality annotations came from language-tool-python, a Python wrapper for a widely-used grammar checker. Essentially, this tool took in the input of every post for every subreddit. If the tool detected no error, it returned an empty list. If the tool detected an error, it returned a list of errors with various details regarding the error. Most of the analysis focused on this list of errors for each subreddit.
 
 ## Analysis
 
 ##### Overview
-In general, my analysis was focused on a series of questions. The most general one was, is there a way to categorize common grammatical errors? One sub-question was, which grammatical errors are most prevalent on Reddit? Another sub-question was, are there grammatical errors that are more common across certain subreddits? The final sub-question was, does the grammaticality of a post have an effect on its interactions?
 
 For the analysis portion of my project, I focused on a series of questions. The overall analysis focused on, is there a way to categorize common grammatical errors? From this question, I explored three sub-questions: 
 
@@ -52,25 +51,23 @@ The legal advice subreddit had **POSSESSIVE_APOSTROPHE** as a unique top error. 
 
 The unique top of error of the explain like i'm five subreddit was **UNIT_SPACE**. This error is caused by a lack of space between a number and its unit.  The uniqueness of this error may be attributed to the fact there are many scientific questions that contain units in the subreddit.
 
-The lawyer talk subreddit had **AM_I** as a unique top error. This error is caused by the lack of "I" before the word“am". I don't have a specific hypothesis for this one, but it is interesting that this error is so prevalent in this specific subreddit. It could be due to writers wanting to shorten a sentence, however this could be true of any online writer.
+The lawyer talk subreddit had **AM_I** as a unique top error. This error is caused by the lack of "I" before the word“am". I don't have a specific hypothesis for this one, but it is interesting that this error is so prevalent in this specific subreddit.
 
 #####  Does the grammaticality of a post have an effect on its interactions?
 
 
-In order to find the connection between interactions and grammaticality, I decided to first find the normalized counts of errors per post for each subreddit. As one can see below, r/nba, r/anime, r/cryptocurrency, r/rant, and r/highschool have the top 5 highest errors per post.
+In order to find the connection between interactions and grammaticality, I decided to first find the normalized counts of errors per post for each subreddit. One can see this visualized below.
 
-In addition to finding the normalized counts per post for each subreddit, I also wanted to find the normalized counts of upvotes per post for each subreddit. As one can see below, r/college, r/adulting, r/anime, r/gaming, and r/cscareerquestions have the highest number of normalized upvote counts.
+In addition to finding the normalized counts per post for each subreddit, I also wanted to find the normalized counts of upvotes per post for each subreddit.  One can see this visualized below.
 
 Taking these two measures into account, one can see that there is no real connection between interactions and grammaticality. Some subreddits had a high number of upvotes and a low number of errors, such as college subreddit. The inverse of this also exist, as seen in the cryptocurrency subreddit. This could be caused by many factors, such as the frequency of posts on that subreddit and the amount of users on that subreddit.
 
 
 ## Setbacks and Difficulties
 
-The first setback I encountered occurred before I even started the project. Specifically, I wanted to use Twitter to study the grammaticality of Tweets. However, Twitter API access changed at the beginning of the semester, which forced me to either change my topic idea or find another website to match my goals for this project. Thankfully, I soon discovered that Reddit also has an API for parsing posts.
+Figuring out how to define and annotate grammaticality was a challenge. First, I considered annotating all of the posts by hand, but this was infeasible and subjective. I also considered creating my own grammaticality annotator, however this was a seemingly daunting and also subjective task. After all considerations, I decided to see if any existing grammaticality parsers existed, which is how I found and settled on language-tool-python.
 
-Furthermore, figuring out how to define and annotate grammaticality was a challenge. First, I considered annotating all of the posts by hand, but this was infeasible and subjective. I also considered creating my own grammaticality annotator, however this was a seemingly daunting and also subjective task. After all considerations, I decided to see if any existing grammaticality parsers existed, which is how I found and settled on language-tool-python.
-
-Data collection and cleaning was a general difficulty during this project. This phase took much longer than expected and took away from some of the analysis that i had plannedfor this project. The data itself was large, therefore navigating it and running code over parts of it was very challenging. Specifically, writing and running code for 1500 posts per 15 subreddits took a large amount of time. This was especially true for parsing posts with language-tool-python, as determine the grammaticality of every sentence for every post in every subreddit was a very time-consuming task.
+Data collection and cleaning was a general difficulty during this project. This phase took much longer than expected and took away from some of the analysis that i had planned for this project. The data itself was large, therefore navigating it and running code over parts of it was very challenging. Specifically, writing and running code for 1500 posts per 15 subreddits took a large amount of time. This was especially true for parsing posts with language-tool-python, as determine the grammaticality of every sentence for every post in every subreddit was a very time-consuming task.
 
 ## Conclusion
 
