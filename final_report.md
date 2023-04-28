@@ -67,7 +67,7 @@ Taking these two measures into account, one can see that there is no real connec
 
 ![png](images/errors.png)
 
-To statistically test this, I used a t-test on all of the upvote counts and all of the error counts for every subreddit. I received a significantly low p-value, which indicated there was no relationship between these two groups. The graph for this can be seen below.
+To [statistically test](https://nbviewer.org/github/Data-Science-for-Linguists-2023/For-Reddit-Grammaticality-Analysis/blob/9a09f7f6d9cc88ada1be268553f5b039a294a957/notebooks/dataAnalysis2.ipynb#T-test) this, I used a t-test on all of the upvote counts and all of the error counts for every subreddit. I received a significantly low p-value, which indicated there was no relationship between these two groups. The graph for this can be seen below.
 
 ![png](images/ttest.png)
 
