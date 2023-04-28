@@ -67,6 +67,12 @@ Taking these two measures into account, one can see that there is no real connec
 
 ![png](images/errors.png)
 
+To statistically test this, I used a t-test on all of the upvote counts and all of the error counts for every subreddit. I received a significantly low p-value, which indicated there was no relationship between these two groups. The graph for this can be seen below.
+
+![png](images/ttest.png)
+
+As one can see, around the error counts for 0-100, there exists both high and low upvotes counts. At higher error counts, there is a lower number of sample values, but they remain a low upvote value. Therefore, there is no real connection between upvote count and error count.
+
 ## Setbacks and Difficulties
 
 Figuring out how to define and annotate grammaticality was a challenge. First, I considered annotating all of the posts by hand, but this was infeasible and subjective. I also considered creating my own grammaticality annotator, however this was a seemingly daunting and also subjective task. After all considerations, I decided to see if any existing grammaticality parsers existed, which is how I found and settled on language-tool-python.
